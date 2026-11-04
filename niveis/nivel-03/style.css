@@ -1,0 +1,25 @@
+.caixa{
+  height: 200px;
+  width: 200px;
+  font-size: 50pt;
+}
+
+.vermello{
+  background-color: red;
+  border: 8px solid tomato;
+}
+
+.verde{
+  background-color: green;
+  border: 8px solid lightgreen;
+}
+
+.amarela{
+  background-color: yellow;
+  border: 8px solid gold;
+}
+
+.caixas{
+  display: flex;
+  justify-content: space-around;
+}
