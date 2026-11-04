@@ -1,3 +1,30 @@
+<<<<<<< HEAD
+.caixa{
+  height: 200px;
+  width: 200px;
+  font-size: 50pt;
+}
+
+.vermello{
+  background-color: red;
+  border: 8px solid tomato;
+}
+
+.verde{
+  background-color: green;
+  border: 8px solid lightgreen;
+}
+
+.amarela{
+  background-color: yellow;
+  border: 8px solid gold;
+}
+
+.caixas{
+  display: flex;
+  justify-content: space-around;
+}
+=======
 /* TODO: adapta este punto de partida ao teu nivel. */
 * { box-sizing: border-box; }
 body { margin:0; font-family:system-ui,sans-serif; line-height:1.5; background:#f3f7fb; color:#203040; }
@@ -16,3 +43,4 @@ a { color:#0b6178; }
 }
 .nenufar { position:absolute; right:20px; top:50%; transform:translateY(-50%); width:66px; height:66px; border-radius:50%; background:#69ac53; }
 .ra { position:relative; z-index:1; width:66px; text-align:center; font-size:40px; line-height:66px; }
+>>>>>>> 25fce5b077ea77a3a60725e4b32facdc101d4a9a
