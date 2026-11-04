@@ -1,18 +1,58 @@
-/* TODO: adapta este punto de partida ao teu nivel. */
-* { box-sizing: border-box; }
-body { margin:0; font-family:system-ui,sans-serif; line-height:1.5; background:#f3f7fb; color:#203040; }
-main { max-width:760px; margin:2rem auto; padding:1.3rem; border-radius:14px; background:white; }
-a { color:#0b6178; }
-.estanque {
-  display:flex;
-  /* TODO: engade aquí as propiedades de Flexbox para resolver o nivel. */
-  align-items:center;
-  position:relative;
-  min-height:230px;
-  padding:20px;
-  border:8px solid #4f9caf;
-  border-radius:20px;
-  background:#80c9da;
-}
-.nenufar { position:absolute; right:20px; top:50%; transform:translateY(-50%); width:66px; height:66px; border-radius:50%; background:#69ac53; }
-.ra { position:relative; z-index:1; width:66px; text-align:center; font-size:40px; line-height:66px; }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+        body {/*esta es la parte que defina las posiciones de las ranas*/
+         display: flex;
+         flex-direction: column; /* pon row si quieres desordenado pon column si quieres ordenado*/
+         flex-wrap: wrap;/* pon nowrap si quieres desordenado pon wrap si quieres ordenado*/
+         gap: 4px;
+         height: 555px;
+         margin: 0;
+         align-content: flex-start;
+        }
+    
+        .caixa1 {
+          height: 100px;
+          width: 100px;
+          background-color: green;
+          border: 3px solid black;
+        }
+    
+        .caixa2 {
+          height: 100px;
+          width: 100px;
+          background-color: red;
+          border: 3px solid black;
+        }
+    
+        .caixa3 {
+          height: 100px;
+          width: 100px;
+          background-color: yellow;
+          border: 3px solid black; 
+        }
+    </style>
+</head>
+<body> /* esta parte son las ranas que hay las divido en tres por colores*/
+  <div class="caixa1">1 </div>
+  <div class="caixa1">1 </div>
+  <div class="caixa1">1 </div>
+  <div class="caixa1">1 </div>
+  <div class="caixa1">1 </div>
+  <div class="caixa2">2 </div>
+  <div class="caixa2">2 </div> 
+  <div class="caixa2">2 </div> 
+  <div class="caixa2">2 </div>   
+  <div class="caixa2">2 </div> 
+  <div class="caixa3">3 </div> 
+  <div class="caixa3">3 </div> 
+  <div class="caixa3">3 </div> 
+  <div class="caixa3">3 </div> 
+  <div class="caixa3">3 </div> 
+</body>
+</html> 
