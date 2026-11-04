@@ -16,3 +16,33 @@ a { color:#0b6178; }
 }
 .nenufar { position:absolute; right:20px; top:50%; transform:translateY(-50%); width:66px; height:66px; border-radius:50%; background:#69ac53; }
 .ra { position:relative; z-index:1; width:66px; text-align:center; font-size:40px; line-height:66px; }
+.caja_verdes{
+    height: 150px;
+    width: 150px;
+    background-color: green;
+    font-size: 50pt;
+    border: 8px solid black;
+}
+.caja_rojas{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    font-size: 50pt;
+    border: 8px solid black;
+}
+.caja_amarillas{
+    height: 150px;
+    width: 150px;
+    background-color: yellow;
+    font-size: 50pt;
+    border: 8px solid black;
+}
+.cajas{
+    border: 8px solid rgb(21, 107, 13);
+    background-color: rgb(2, 75, 53);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-items: center;
+    height: 830px;
+}
