@@ -16,3 +16,69 @@ a { color:#0b6178; }
 }
 .nenufar { position:absolute; right:20px; top:50%; transform:translateY(-50%); width:66px; height:66px; border-radius:50%; background:#69ac53; }
 .ra { position:relative; z-index:1; width:66px; text-align:center; font-size:40px; line-height:66px; }
+
+.caja_verde {
+    height: 200px;
+    width: 200px;
+    background-color: greenyellow;
+    font-size: 50pt;
+    border: 8px solid purple;
+}
+
+.caja_roja {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    font-size: 50pt;
+    border: 8px solid black;
+}
+
+.caja_amarilla {
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    font-size: 50pt;
+    border: 8px solid purple;
+}
+
+.espacio {
+    border: 8px solid blue;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+}
+
+.hueco-1 {
+    height: 300px;
+    width: 300px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50%;
+}
+
+.hueco-2 {
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50%;
+}
+
+.hueco-3 {
+    height: 300px;
+    width: 300px;
+    background-color: goldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50%;
+}
