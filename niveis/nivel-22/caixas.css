@@ -1,0 +1,18 @@
+.caixas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-end;
+  width: 750px;
+  height: calc(100vh - 16px);
+  margin: 0 auto;
+}
+
+.caixa {
+  box-sizing: border-box;
+  width: 150px;
+  height: 150px;
+  border: 8px solid yellow;
+  background-color: aquamarine;
+  font-size: 48px;
+}
